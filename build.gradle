@@ -8,7 +8,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:4.2.0-beta06"
+        classpath 'com.android.tools.build:gradle:4.2.0-rc01'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -21,7 +21,7 @@ allprojects {
         maven{url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
+       // jcenter() // Warning: this repository is going to shut down soon
     }
 }
 
