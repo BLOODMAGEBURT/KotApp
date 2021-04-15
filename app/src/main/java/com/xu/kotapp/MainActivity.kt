@@ -1,7 +1,7 @@
 package com.xu.kotapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.xu.kotapp.databinding.ActivityMainBinding
 import splitties.activities.start
 
@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
-        binding.hello.setOnClickListener { start<LoginActivity> { } }
+        binding.hello.setOnClickListener { start<DragActivity> { } }
     }
 }
 
